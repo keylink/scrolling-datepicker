@@ -1,7 +1,7 @@
 # React scrolling datepicker
 
 
-## [Demo][https://keylink.github.io/scrolling-datepicker/]
+## [Demo](https://keylink.github.io/scrolling-datepicker/)
 
 **Install dependencies**
 
