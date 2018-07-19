@@ -34,7 +34,7 @@ export default class MainComponent extends React.Component {
     const year = this.state.currectDate.getFullYear();
     const month = this.state.currectDate.getMonth();
     const day = this.state.currectDate.getDate();
-    const index = yearArr.findIndex(x => x.id === year);
+
 
     // DATEPICKER YEAR
 
@@ -47,6 +47,8 @@ export default class MainComponent extends React.Component {
 
       yearArr.push(obj)
     }
+
+    const index = yearArr.findIndex(x => x.id === year);
 
     // DATEPICKER MONTH
 

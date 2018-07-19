@@ -2,7 +2,7 @@
   "name": "currentnight",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://keylink.github.io/demo-react",
+  "homepage": "https://keylink.github.io/scrolling-datepicker",
   "dependencies": {
     "axios": "^0.18.0",
     "chart.js": "^1.1.1",
