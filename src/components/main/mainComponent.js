@@ -172,6 +172,7 @@ export default class MainComponent extends React.Component {
                         speed: 500,
                         slidesToShow: 1,
                         slidesToScroll: 1,
+                        draggable: false,
                         afterChange: current => this.yearIsClicked({ id: current }),
                         initialSlide: this.state.yearToSlide
                       }}>
@@ -194,6 +195,7 @@ export default class MainComponent extends React.Component {
                         speed: 500,
                         slidesToShow: 1,
                         slidesToScroll: 1,
+                        draggable: false,
                         afterChange: current => this.dayIsClicked({ id: current }),
                         initialSlide: this.state.month
                       }}>
@@ -218,6 +220,7 @@ export default class MainComponent extends React.Component {
                         speed: 500,
                         slidesToShow: 7,
                         slidesToScroll: 7,
+                        draggable: false,
                         initialSlide: (this.state.day - 1) <= 3 ? (this.state.day - 1) : (this.state.day - 1) - 3
                       }}>
                         {
